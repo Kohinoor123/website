@@ -1,0 +1,85 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Element Table</title>
+        <link rel="stylesheet" href="../css code/style.css">
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 50%;
+                margin: 20px;
+            }
+
+            th, td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2>Element Table</h2>
+
+        <table>
+            <tr>
+                <th>Element</th>
+                <th>Symbol & About</th>
+                <th>Photo</th>
+            </tr>
+            <tr>
+                <td>Carbon</td>
+                <td>The Represent of Carbon in table : 'C' <br>Carbon (from Latin carbo 'coal') is a chemical element; it has symbol C and atomic number 6. It is nonmetallic and tetravalent—meaning that its atoms are able to form up to four covalent bonds due to its valence shell exhibiting 4 electrons. It belongs to group 14 of the periodic table.</td>
+                <td><img src="../image/diamond-e1490980692833 (1).jpg" class="custom-image"></td>
+            </tr>
+        </table>
+
+    </body>
+    </html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 12px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    /* CSS code to customize image size */
+.custom-image 
+{
+  width: 200px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  object-fit: cover; /* This property controls how the image is resized to fit its container */
+  border: 2px solid #ccc; /* Optional: Add a border for visual distinction */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+</style>
